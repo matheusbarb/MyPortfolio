@@ -77,22 +77,22 @@ export default function contact() {
                 </div>
                 <div>
                 <h5 className="lg:text-6xl text-lg font-bold text-gray-800 my-2 pb-10">Send me a E-mail</h5>
-                <form ref={form} className="form flex flex-col gap-4" onSubmit={sendEmail}>
+                <form ref={form} className="form flex flex-col gap-4 border-black border-2 rounded-b-xl bg-[#9CA2A9]  rounded-t-xl" onSubmit={sendEmail}>
                 <input className="  block -translate-x-2 -translate-y-2 border-black border-2   hover:-translate-y-4 hover:-translate-x-4  transition-all  h-10  text-sm placeholder-[#9CA2A9] text-black rounded-lg  w-full p-2.5" 
                                 placeholder="Seu nome" 
                                 type="text"
                                 name="name"
                         />
-                    <input className="block -translate-x-2 -translate-y-2 border-black border-2   hover:-translate-y-4 hover:-translate-x-4 active:translate-x-0 active:translate-y-0 transition-all  h-10  text-sm placeholder-[#9CA2A9] text-black rounded-lg  w-full p-2.5" 
+                    <input className="block -translate-x-2 -translate-y-2 border-black border-2   hover:-translate-y-4 hover:-translate-x-4 transition-all  h-10  text-sm placeholder-[#9CA2A9] text-black rounded-lg  w-full p-2.5" 
                                  placeholder="email@gmail.com"
                                  type="text"
                                  name="email"
                         />
-                        <textarea className=" block -translate-x-2 -translate-y-2 border-black border-2   hover:-translate-y-4 hover:-translate-x-4 active:translate-x-0 active:translate-y-0 transition-all   text-sm placeholder-[#9CA2A9] text-black rounded-lg  w-full p-2.5" 
+                        <textarea className=" block -translate-x-2 -translate-y-2 border-black border-2   hover:-translate-y-4 hover:-translate-x-4  transition-all   text-sm placeholder-[#9CA2A9] text-black rounded-lg  w-full p-2.5" 
                                   placeholder="Digite aqui sua mensagem"
                                   name="message"   
                         />
-                        <button className="   bg-black rounded-lg ">
+                        <button className="   bg-[#3b3c3d] rounded-lg ">
                         <input className="button bg-[#87CEEB]  cursor-pointer block -translate-x-2 -translate-y-2 border-black border-2   hover:-translate-y-4 hover:-translate-x-4 active:translate-x-0 active:translate-y-0 transition-all   text-sm placeholder-[#9CA2A9] text-black rounded-lg  w-full p-2.5" type="submit" value="Enviar"/>
                         </button>
                 </form>

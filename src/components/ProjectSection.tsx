@@ -15,12 +15,12 @@ const projects = [
   },
   {
     title: "Portfolio - Photographer",
-    description: "mmersive photography portfolio crafted with Next.js and Tailwind CSS, showcasing captivating moments in stunning detail.",
+    description: "Immersive photography portfolio crafted with Next.js and Tailwind CSS, showcasing captivating moments in stunning detail.",
     image: "/assets/duncan.png",
     repo: "https://github.com/matheusbarb/photographyportfolio",
     demo: "https://duncan-photo.vercel.app",
-    bgColor: "bg-[#DAF5F0]",
-    buttonColor: "bg-[#E3DFF2]",
+    bgColor: "bg-[#5F3806]",
+    buttonColor: "bg-[#EBE0D4]",
   },
   {
     title: "To-do App",
